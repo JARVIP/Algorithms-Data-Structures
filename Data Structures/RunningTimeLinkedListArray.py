@@ -1,4 +1,5 @@
 import time
+import numpy as np
 
 
 class Node:
@@ -35,7 +36,7 @@ if __name__ == '__main__':
     for i in range(500000):
         linked_list.insert(i)
 
-    print('Inserting items into Linked List in %ss' % str(time.time()-now))
+    print('Inserting items into Linked List in %ss' % str(time.time() - now))
 
     array = []
     now = time.time()
@@ -44,3 +45,11 @@ if __name__ == '__main__':
         array.insert(0, i)
 
     print('Inserting items into Array in %ss' % str(time.time() - now))
+
+    s = np.array(50000)
+    now = time.time()
+
+    for i in range(50000):
+        np.append(s, i)
+
+    print('Inserting items into numpy Array in %ss' % str(time.time() - now))
