@@ -1,7 +1,6 @@
 import requests
 import re
 
-
 class WebCrawler:
 
     def __init__(self):
