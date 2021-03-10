@@ -15,6 +15,7 @@ class Node:
         self.predecessor = None
         self.min_distance = float('inf')
 
+
 class BellmanFordAlgorithm:
     def __init__(self, vertex_list, edge_list, start_vertex):
         self.vertex_list = vertex_list
