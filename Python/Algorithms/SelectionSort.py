@@ -16,3 +16,4 @@ if __name__ == "__main__":
     n = [2, 23, 2, -1, 32, 0, 44, 12, 4]
     selection_sort(n)
     print(n)
+
