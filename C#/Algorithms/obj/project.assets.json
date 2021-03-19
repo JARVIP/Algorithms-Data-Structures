@@ -9,22 +9,25 @@
   },
   "packageFolders": {
     "C:\\Users\\JARVIS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JARVIS\\Desktop\\Algorithms & Data Structures\\Work\\C#\\Algorithms\\Algorithms.csproj",
+      "projectUniqueName": "C:\\Users\\JARVIS\\OneDrive\\Learning\\Algorithms & Data Structures\\Work\\C#\\Algorithms\\Algorithms.csproj",
       "projectName": "Algorithms",
-      "projectPath": "C:\\Users\\JARVIS\\Desktop\\Algorithms & Data Structures\\Work\\C#\\Algorithms\\Algorithms.csproj",
+      "projectPath": "C:\\Users\\JARVIS\\OneDrive\\Learning\\Algorithms & Data Structures\\Work\\C#\\Algorithms\\Algorithms.csproj",
       "packagesPath": "C:\\Users\\JARVIS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JARVIS\\Desktop\\Algorithms & Data Structures\\Work\\C#\\Algorithms\\obj\\",
+      "outputPath": "C:\\Users\\JARVIS\\OneDrive\\Learning\\Algorithms & Data Structures\\Work\\C#\\Algorithms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\JARVIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
