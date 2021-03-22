@@ -19,8 +19,17 @@ namespace Algorithms
             ///PalindromeCheck palindromeCheck = new PalindromeCheck("radar");
             ///Console.WriteLine(palindromeCheck.IsPalindrome());
 
-            ReverseInteger reverse = new ReverseInteger(1234);
-            Console.WriteLine(reverse.Reverse());
+            /// Reverse Integer test
+            ///ReverseInteger reverse = new ReverseInteger(1234);
+            ///Console.WriteLine(reverse.Reverse());
+
+            /// Anagram Test
+            ///AnagramProblem anagramProblem = new AnagramProblem("test", "sett");
+            ///Console.WriteLine(anagramProblem.IsAnagram());
+
+            /// Duplicate array problem Test
+            DuplicateArrayProblem duplicateArrayProblem = new DuplicateArrayProblem(new int[]{1 ,2 , 3 , 1, 4, 2});
+            duplicateArrayProblem.FindDuplicates();
         }
     }
 }
