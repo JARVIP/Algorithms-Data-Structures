@@ -28,8 +28,8 @@ namespace Algorithms
             ///Console.WriteLine(anagramProblem.IsAnagram());
 
             /// Duplicate array problem Test
-            DuplicateArrayProblem duplicateArrayProblem = new DuplicateArrayProblem(new int[]{1 ,2 , 3 , 1, 4, 2});
-            duplicateArrayProblem.FindDuplicates();
+            ///DuplicateArrayProblem duplicateArrayProblem = new DuplicateArrayProblem(new int[]{1 ,2 , 3 , 1, 4, 2});
+            ///duplicateArrayProblem.FindDuplicates();
         }
     }
 }
