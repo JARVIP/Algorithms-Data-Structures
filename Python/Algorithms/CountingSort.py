@@ -20,7 +20,7 @@ class CountingSort:
 
 
 if __name__ == '__main__':
-    n = [4 , 6, 3, 43, 1, -4]
+    n = [4, 6, 3, 43, 1, -4]
     counting_sort = CountingSort(n)
     counting_sort.sort()
     print(counting_sort.data)
