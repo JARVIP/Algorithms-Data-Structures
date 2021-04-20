@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Algorithms.Codility;
+using System;
 
 namespace Algorithms
 {
@@ -31,10 +32,13 @@ namespace Algorithms
             ///DuplicateArrayProblem duplicateArrayProblem = new DuplicateArrayProblem(new int[]{1 ,2 , 3 , 1, 4, 2});
             ///duplicateArrayProblem.FindDuplicates();
 
-
             /// Is number Prime
-            IsPrime isPrime = new IsPrime(169);
-            isPrime.Check();
+            ///IsPrime isPrime = new IsPrime(169);
+            ///isPrime.Check();
+
+            OddOccurrencesInArray odd = new OddOccurrencesInArray(new int[] { 9,3,9,3,9,7,9 });
+            Console.WriteLine(odd.solution());
+
         }
     }
 }
