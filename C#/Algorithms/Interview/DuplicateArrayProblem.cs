@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithms
+namespace Interview.Algorithms
 {
     public class DuplicateArrayProblem
     {

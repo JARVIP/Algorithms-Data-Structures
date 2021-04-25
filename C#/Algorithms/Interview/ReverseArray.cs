@@ -1,4 +1,4 @@
-namespace Algorithms
+namespace Interview.Algorithms
 {
     public class ReverseArray
     {

@@ -1,4 +1,5 @@
 ﻿using Algorithms.Codility;
+using Interview.Algorithms;
 using System;
 
 namespace Algorithms
@@ -36,9 +37,11 @@ namespace Algorithms
             ///IsPrime isPrime = new IsPrime(169);
             ///isPrime.Check();
 
-            OddOccurrencesInArray odd = new OddOccurrencesInArray(new int[] { 9,3,9,3,9,7,9 });
-            Console.WriteLine(odd.solution());
+            /// OddOccurrencesInArray
+            ///OddOccurrencesInArray odd = new OddOccurrencesInArray(new int[] { 9,3,9,3,9,7,9 });
+            ///Console.WriteLine(odd.solution());
 
+            
         }
     }
 }
