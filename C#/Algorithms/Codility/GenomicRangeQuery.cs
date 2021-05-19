@@ -47,30 +47,60 @@ namespace Algorithms.Codility
      */
     public class GenomicRangeQuery
     {
-        private int GetInfactFactor(string s)
+        private string _s;
+        private int[] _p, _q;
+
+        public GenomicRangeQuery(string s, int[] p, int[] q)
         {
-            if (s.Contains("A"))
-            {
-                return 1;
-            }
-            if (s.Contains("C"))
-            {
-                return 2;
-            }
-            if (s.Contains("G"))
-            {
-                return 3;
-            }
-            return 4;
+            _s = s;
+            _p = p;
+            _q = q;
         }
-        public int[] solution(string S, int[] P, int[] Q)
+
+        public int[] solution()
         {
-            int[] result = new int[Q.Length];
-            for (int i = 0; i < P.Length; i++)
+            int[,] q = new int[_s.Length + 1, 3];
+            for (int i = 0; i < _s.Length; i++)
             {
-                string s = S.Substring(P[i], (Q[i] - P[i]));
-                result[i] = GetInfactFactor(s);
+                int a = 0, c = 0, g = 0;
+                if (_s[i] == 'A')
+                {
+                    a = 1;
+                }
+                if (_s[i] == 'C')
+                {
+                    c = 1;
+                }
+                if (_s[i] == 'G')
+                {
+                    g = 1;
+                }
+                q[i + 1, 0] = q[i, 0] + a;
+                q[i + 1, 1] = q[i, 1] + c;
+                q[i + 1, 2] = q[i, 2] + g;
             }
+
+            int[] result = new int[_p.Length];
+            for (int i = 0; i < result.Length; i++)
+            {
+                if (q[_q[i] + 1, 0] - q[_p[i], 0] > 0)
+                {
+                    result[i] = 1;
+                    continue;
+                }
+                if (q[_q[i] + 1, 1] - q[_p[i], 1] > 0)
+                {
+                    result[i] = 2;
+                    continue;
+                }
+                if (q[_q[i] + 1, 2] - q[_p[i], 2] > 0)
+                {
+                    result[i] = 3;
+                    continue;
+                }
+                result[i] = 4;
+            }
+
             return result;
         }
     }
