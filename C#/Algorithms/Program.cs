@@ -1,4 +1,5 @@
 ﻿using Algorithms.Codility;
+using Algorithms.Interview;
 using Interview.Algorithms;
 using System;
 
@@ -41,9 +42,17 @@ namespace Algorithms
             ///OddOccurrencesInArray odd = new OddOccurrencesInArray(new int[] { 9,3,9,3,9,7,9 });
             ///Console.WriteLine(odd.solution());
 
-            MinAvgTwoSlice n = new MinAvgTwoSlice(new int[] { 4, 2, 2, 5, 1, 2, 2, 3, 8 });
+            /// BubbleSort
+            ///BubbleSort bubbleSort = new BubbleSort(new int[] { 1, -5, 0, 2, -1, 10, 9, 100, 56, -34});
+            ///bubbleSort.PrintNums();
+            ///bubbleSort.Sort();
+            ///bubbleSort.PrintNums();
 
-            n.Solution();
+            /// InsertionSort
+            SelectionSort selectionSort = new SelectionSort(new int[] { 1, -5, 0, 2, -1, 10, 9, 100, 56, -34});
+            selectionSort.PrintNums();
+            selectionSort.Sort();
+            selectionSort.PrintNums();
 
         }
     }
