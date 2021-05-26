@@ -49,10 +49,10 @@ namespace Algorithms
             ///bubbleSort.PrintNums();
 
             /// InsertionSort
-            SelectionSort selectionSort = new SelectionSort(new int[] { 1, -5, 0, 2, -1, 10, 9, 100, 56, -34});
-            selectionSort.PrintNums();
-            selectionSort.Sort();
-            selectionSort.PrintNums();
+            ///SelectionSort selectionSort = new SelectionSort(new int[] { 1, -5, 0, 2, -1, 10, 9, 100, 56, -34});
+            ///selectionSort.PrintNums();
+            ///selectionSort.Sort();
+            ///selectionSort.PrintNums();
 
         }
     }
