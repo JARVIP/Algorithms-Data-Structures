@@ -1,4 +1,6 @@
-﻿namespace Algorithms
+﻿using Algorithms.Interview;
+
+namespace Algorithms
 {
     class Program
     {
@@ -43,12 +45,25 @@
             ///bubbleSort.Sort();
             ///bubbleSort.PrintNums();
 
-            /// InsertionSort
+            /// SelectionSort
             ///SelectionSort selectionSort = new SelectionSort(new int[] { 1, -5, 0, 2, -1, 10, 9, 100, 56, -34});
             ///selectionSort.PrintNums();
             ///selectionSort.Sort();
             ///selectionSort.PrintNums();
 
+
+            /// InsertionSort
+            ///InsertionSort insertionSort = new InsertionSort(new int[] { 1, -5, 0, 2, -1, 10, 9, 100, 56, -34 });
+            ///insertionSort.PrintNums();
+            ///insertionSort.Sort();
+            ///insertionSort.PrintNums();
+
+
+            /// QuickSort
+            ///QuickSort quickSort = new QuickSort(new int[] { 1, -5, 0, 2, -1, 10, 9, 100, 56, -34 });
+            ///quickSort.PrintNums();
+            ///quickSort.Sort();
+            ///quickSort.PrintNums();
         }
     }
 }

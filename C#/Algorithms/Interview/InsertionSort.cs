@@ -2,11 +2,11 @@
 
 namespace Algorithms.Interview
 {
-    public class SelectionSort
+    public class InsertionSort
     {
         private int[] nums;
 
-        public SelectionSort(int[] nums)
+        public InsertionSort(int[] nums)
         {
             this.nums = nums;
         }
@@ -15,18 +15,12 @@ namespace Algorithms.Interview
         {
             for (int i = 0; i < nums.Length; i++)
             {
-                int index = i;
-                for (int j = i; j < nums.Length; j++)
-                {
-                    if (nums[j] < nums[index])
-                    {
-                        index = j;
-                    }
-                }
+                int j = i;
 
-                if (index != i)
+                while (j > 0 && nums[j - 1] > nums[j])
                 {
-                    Swap(index, i);
+                    Swap(j - 1, j);
+                    j--;
                 }
             }
         }
