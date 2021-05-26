@@ -1,9 +1,4 @@
-﻿using Algorithms.Codility;
-using Algorithms.Interview;
-using Interview.Algorithms;
-using System;
-
-namespace Algorithms
+﻿namespace Algorithms
 {
     class Program
     {

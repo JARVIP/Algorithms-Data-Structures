@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithms.Codility
+﻿namespace Algorithms.Codility
 {
     /*
     You are given N counters, initially set to 0, and you have two possible operations on them:

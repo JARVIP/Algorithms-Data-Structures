@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithms.Codility
+﻿namespace Algorithms.Codility
 {
     /*
         Write a function:
@@ -23,7 +17,7 @@ namespace Algorithms.Codility
         K is an integer within the range [1..2,000,000,000];
         A ≤ B.
      */
-    
+
     public class CountDiv
     {
         private int _a; 
