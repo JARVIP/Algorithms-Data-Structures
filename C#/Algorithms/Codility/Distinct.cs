@@ -36,7 +36,25 @@ namespace Algorithms.Codility
 
         public int Solution()
         {
+            if (_a.Length == 0)
+                return 0;
+            int minValue = _a.Min();
+            int maxValue = _a.Max();
+            int countDistinct = 0;
 
+            int[] countArray = new int[maxValue - minValue + 1];
+
+
+            for (int i = 0; i < _a.Length; i++)
+            {
+                if (countArray[_a[i] - minValue] == 0)
+                {
+                    countDistinct++;
+                }
+                countArray[_a[i] - minValue] = 1;
+            }
+
+            return countDistinct;
         }
     }
 }
