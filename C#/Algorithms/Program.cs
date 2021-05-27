@@ -51,19 +51,24 @@ namespace Algorithms
             ///selectionSort.Sort();
             ///selectionSort.PrintNums();
 
-
             /// InsertionSort
             ///InsertionSort insertionSort = new InsertionSort(new int[] { 1, -5, 0, 2, -1, 10, 9, 100, 56, -34 });
             ///insertionSort.PrintNums();
             ///insertionSort.Sort();
             ///insertionSort.PrintNums();
 
-
             /// QuickSort
             ///QuickSort quickSort = new QuickSort(new int[] { 1, -5, 0, 2, -1, 10, 9, 100, 56, -34 });
             ///quickSort.PrintNums();
             ///quickSort.Sort();
             ///quickSort.PrintNums();
+
+
+            /// MergeSort
+            MergeSort mergeSort = new MergeSort(new int[] { 1, -5, 0, 2, -1, 10, 9, 100, 56, -34 });
+            mergeSort.PrintNums();
+            mergeSort.Sort();
+            mergeSort.PrintNums();
         }
     }
 }
