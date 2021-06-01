@@ -72,10 +72,14 @@ namespace Algorithms
 
 
             /// CountingSort
-            CountingSort countingSort = new CountingSort(new int[] { 1, -5, 0, 2, -1, 10, 9, 100, 56, -34 });
-            countingSort.PrintNums();
-            countingSort.Sort();
-            countingSort.PrintNums();
+            //CountingSort countingSort = new CountingSort(new int[] { 1, -5, 0, 2, -1, 10, 9, 100, 56, -34 });
+            //countingSort.PrintNums();
+            //countingSort.Sort();
+            //countingSort.PrintNums();
+
+
+            
+
         }
     }
 }
