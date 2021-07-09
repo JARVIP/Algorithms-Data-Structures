@@ -71,8 +71,13 @@ namespace Algorithms.Codility
             for (int i = 0; i < n; i++)
             {
                 if (_a[i] == candidate) count += 1;
-                if (count > n / 2) leader = candidate;
+                if (count > n / 2)
+                {
+                    leader = candidate;
+                    break;
+                }
             }
+
 
             return Array.IndexOf(_a, leader);
         }
