@@ -1,4 +1,6 @@
-﻿using Algorithms.Interview;
+﻿using Algorithms.Codility;
+using Algorithms.Interview;
+using System;
 
 namespace Algorithms
 {
@@ -77,8 +79,8 @@ namespace Algorithms
             //countingSort.Sort();
             //countingSort.PrintNums();
 
-
-            
+            //Flags flags = new Flags();
+            //flags.solution(new int[] { 1, 5, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2 });
 
         }
     }

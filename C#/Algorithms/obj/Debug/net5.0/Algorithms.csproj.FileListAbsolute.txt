@@ -21,7 +21,6 @@ C:\Users\JARVIS\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithm
 C:\Users\JARVIS\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms\bin\Debug\net5.0\Algorithms.dll
 C:\Users\JARVIS\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms\bin\Debug\net5.0\ref\Algorithms.dll
 C:\Users\JARVIS\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms\bin\Debug\net5.0\Algorithms.pdb
-C:\Users\JARVIS\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms\obj\Debug\net5.0\Algorithms.csprojAssemblyReference.cache
 C:\Users\JARVIS\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms\obj\Debug\net5.0\Algorithms.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\JARVIS\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms\obj\Debug\net5.0\Algorithms.AssemblyInfoInputs.cache
 C:\Users\JARVIS\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms\obj\Debug\net5.0\Algorithms.AssemblyInfo.cs
@@ -30,3 +29,4 @@ C:\Users\JARVIS\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithm
 C:\Users\JARVIS\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms\obj\Debug\net5.0\ref\Algorithms.dll
 C:\Users\JARVIS\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms\obj\Debug\net5.0\Algorithms.pdb
 C:\Users\JARVIS\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms\obj\Debug\net5.0\Algorithms.genruntimeconfig.cache
+C:\Users\JARVIS\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms\obj\Debug\net5.0\Algorithms.csproj.AssemblyReference.cache
