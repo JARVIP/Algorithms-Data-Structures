@@ -53,5 +53,6 @@ namespace Algorithms.Codility
             }
             return result;
         }
+
     }
 }
