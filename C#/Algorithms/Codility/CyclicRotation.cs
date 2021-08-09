@@ -60,5 +60,19 @@
             }
             return result;
         }
+
+        public int[] solution2()
+        {
+            int n = _a.Length;
+            int[] result = new int[n];
+            for (int i = 0; i < n; i++)
+            {
+                result[(i + _k) % n] = _a[i];
+            }
+            return result;
+        }
     }
+
+
+  
 }
