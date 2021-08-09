@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
 namespace Algorithms.Codility
 {
@@ -47,6 +48,19 @@ namespace Algorithms.Codility
         public int solution()
         {
             return _a.Aggregate((x, y) => x ^ y);
+        }
+
+        public int solution2()
+        {
+            Array.Sort(_a);
+            for (int i = 0; i < _a.Length - 1; i += 2)
+            {
+                if (_a[i] != _a[i + 1])
+                {
+                    return _a[i];
+                }
+            }
+            return _a[_a.Length - 1];
         }
     }
 }

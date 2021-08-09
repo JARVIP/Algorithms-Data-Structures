@@ -39,6 +39,7 @@ namespace Algorithms.Codility
             _a = a;
         }
 
+        //O(N) or O(N* log(N))
         public int solution()
         {
             if (_a.Length == 0)
@@ -63,6 +64,21 @@ namespace Algorithms.Codility
             // sum of consecutive integers from 1 to n is equal to n(n+1)/2.
             int result = n * (n + 1) / 2;
             return result - _a.Sum();
+        }
+
+        //O(N) or O(N* log(N))
+        public int solution3()
+        {
+            Array.Sort(_a);
+            int n = _a.Length;
+            for (int i = 0; i < n; i++)
+            {
+                if (_a[i] != i + 1)
+                {
+                    return i + 1;
+                }
+            }
+            return n == 0 ? 1 : _a[n - 1] + 1;
         }
     }
 }

@@ -41,7 +41,7 @@ namespace Algorithms.Codility
 
         public int solution()
         {
-            return (int)Math.Ceiling(((_y - _x + 0.0) / _d));
+            return (int)Math.Ceiling((_y - _x + 0.0) / _d);
         }
     }
 }
