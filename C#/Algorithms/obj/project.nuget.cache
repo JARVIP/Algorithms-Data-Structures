@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PCHR+Tv0T4B5wmQxa8XX8EUvdkc7VySM3E9dYIj0XxICBO92CD56KAIMlKqVF9G3tHTnNcRM/iG2yhwxeVtZtw==",
+  "dgSpecHash": "OCBQYvAaytCfiTOFIV2/7AMAvf0fBvA6OfVMa8B6zj4uSb8HSzQMiixXtrqXabb44tiQCJbFjM/r1xE6iS3Gng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JARVIS\\OneDrive\\Learning\\Algorithms & Data Structures\\Work\\C#\\Algorithms\\Algorithms.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\olegg\\OneDrive\\Learning\\Algorithms & Data Structures\\Work\\C#\\Algorithms\\Algorithms.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olegg\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.8\\microsoft.netcore.app.host.win-x64.5.0.8.nupkg.sha512"
+  ],
   "logs": []
 }
