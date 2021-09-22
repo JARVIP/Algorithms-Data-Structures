@@ -1,7 +1,9 @@
 ﻿using Algorithms.Codility;
 using Algorithms.Interview;
+using Interview.Algorithms;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace Algorithms
 {
@@ -23,7 +25,7 @@ namespace Algorithms
             ///Console.WriteLine(palindromeCheck.IsPalindrome());
 
             /// Reverse Integer test
-            ///ReverseInteger reverse = new ReverseInteger(1234);
+            ///ReverseInteger reverse = new ReverseInteger(10000);
             ///Console.WriteLine(reverse.Reverse());
 
             /// Anagram Test
@@ -83,8 +85,7 @@ namespace Algorithms
             //Flags flags = new Flags();
             //flags.solution(new int[] { 1, 5, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2 });
 
+            
         }
-
-      
     }
 }
