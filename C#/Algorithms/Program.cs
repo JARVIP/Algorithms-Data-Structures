@@ -85,23 +85,7 @@ namespace Algorithms
             //Flags flags = new Flags();
             //flags.solution(new int[] { 1, 5, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2 });
 
-            string[] words =
-                { "1", "2", "3", "4", "5","6" };
-
-            LinkedList<string> sentence = new LinkedList<string>(words);
-
-            var first = sentence.First;
-            var second = sentence.First.Next;
-
-            while (second != null)
-            {
-                sentence.AddBefore(first, second.Value);
-                first = first.Previous;
-                var next = second.Next;
-                sentence.Remove(second);
-                second = next;
-            }
-            
+       
         }
     }
 }
