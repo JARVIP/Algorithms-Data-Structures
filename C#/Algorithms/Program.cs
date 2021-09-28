@@ -85,7 +85,24 @@ namespace Algorithms
             //Flags flags = new Flags();
             //flags.solution(new int[] { 1, 5, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2 });
 
-       
+
+
+            BinarySearchTree tree = new BinarySearchTree();
+            tree.Insert(3);
+            tree.Insert(10);
+            tree.Insert(11);
+            tree.Insert(2);
+            tree.Insert(-2);
+            tree.Insert(1000);
+
+            tree.Traverse();
+            tree.Remove(-2);
+            tree.Traverse();
+
+
+
+            Console.WriteLine("max item: "+tree.GetMaxValue());
+            Console.WriteLine("min item: "+tree.GetMinValue());
         }
     }
 }
