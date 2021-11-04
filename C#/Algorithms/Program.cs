@@ -1,5 +1,6 @@
 ﻿using Algorithms.Codility;
 using Algorithms.Interview;
+using Algorithms.Interview.DictionariesAndHashmaps;
 using Interview.Algorithms;
 using System;
 using System.Collections;
@@ -62,11 +63,11 @@ namespace Algorithms
             ///insertionSort.Sort();
             ///insertionSort.PrintNums();
 
-            /// QuickSort
-            ///QuickSort quickSort = new QuickSort(new int[] { 1, -5, 0, 2, -1, 10, 9, 100, 56, -34 });
-            ///quickSort.PrintNums();
-            ///quickSort.Sort();
-            ///quickSort.PrintNums();
+            // QuickSort
+            //QuickSort quickSort = new QuickSort(new int[] { 1, -5, 0, 2, -1, 10, 9, 100, 56, -34 });
+            //quickSort.PrintNums();
+            //quickSort.Sort();
+            //quickSort.PrintNums();
 
 
             /// MergeSort
@@ -87,22 +88,32 @@ namespace Algorithms
 
 
 
-            BinarySearchTree tree = new BinarySearchTree();
-            tree.Insert(3);
-            tree.Insert(10);
-            tree.Insert(11);
-            tree.Insert(2);
-            tree.Insert(-2);
-            tree.Insert(1000);
+            //BinarySearchTree tree = new BinarySearchTree();
+            //tree.Insert(3);
+            //tree.Insert(10);
+            //tree.Insert(11);
+            //tree.Insert(2);
+            //tree.Insert(-2);
+            //tree.Insert(1000);
 
-            tree.Traverse();
-            tree.Remove(-2);
-            tree.Traverse();
+            //tree.Traverse();
+            //tree.Remove(-2);
+            //tree.Traverse();
 
 
 
-            Console.WriteLine("max item: "+tree.GetMaxValue());
-            Console.WriteLine("min item: "+tree.GetMinValue());
+            //Console.WriteLine("max item: "+tree.GetMaxValue());
+            //Console.WriteLine("min item: "+tree.GetMinValue());
+
+
+            //SherlockAndAnagrams anagrams = new SherlockAndAnagrams();
+
+            //int result = anagrams.Solve("ifailuhkqq");
+
+
+            CountTriplets triplets = new CountTriplets();
+
+            long result = triplets.Solve(new List<long> { 5, 25, 125,5,1 }, 5);
         }
     }
 }

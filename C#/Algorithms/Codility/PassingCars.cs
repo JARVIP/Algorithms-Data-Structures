@@ -31,5 +31,29 @@
             }
             return count;
         }
+
+        public int Solution2()
+        {
+            int passingCar = 0;
+            int countEast = 0;
+            for (int i = 0; i < _a.Length; i++)
+            {
+                if (_a[i] == 0)
+                {
+                    countEast += 1;
+                }
+                if (_a[i] == 1)
+                {
+                    passingCar += countEast;
+                    if (passingCar > 1000000000)
+                    {
+                        return -1;
+                    }
+                }
+            }
+
+            return passingCar;
+
+        }
     }
 }

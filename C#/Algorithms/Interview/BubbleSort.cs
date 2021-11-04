@@ -32,12 +32,6 @@ namespace Algorithms.Interview
             nums[j] = reminder;
         }
 
-        public int[] GetNums { get
-            {
-                return nums;
-            } 
-        }
-
         public void PrintNums()
         {
             for (int i = 0; i < nums.Length; i++)

@@ -43,5 +43,21 @@ namespace Algorithms.Codility
         {
             return (int)Math.Ceiling((_y - _x + 0.0) / _d);
         }
+
+
+        public int solution2()
+        {
+            int distance = _y - _x;
+            int counter = distance / _d;
+            int startPosition = counter * _d;
+
+            while (distance > startPosition)
+            {
+                startPosition += _d;
+                counter++;
+            }
+
+            return counter;
+        }
     }
 }

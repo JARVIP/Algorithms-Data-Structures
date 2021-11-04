@@ -215,6 +215,7 @@ namespace Algorithms.Interview
                 return node.data;
             }
         }
+
         private void InsertNode(int data, Node node)
         {
             if (data < node.data)
