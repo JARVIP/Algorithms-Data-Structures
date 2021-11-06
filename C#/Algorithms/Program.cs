@@ -1,6 +1,10 @@
 ﻿using Algorithms.Codility;
 using Algorithms.Interview;
+using Algorithms.Interview.Array;
 using Algorithms.Interview.DictionariesAndHashmaps;
+using Algorithms.Interview.GreedyAlgorithms;
+using Algorithms.Interview.Miscellaneous;
+using Algorithms.Interview.Sorting;
 using Interview.Algorithms;
 using System;
 using System.Collections;
@@ -111,9 +115,32 @@ namespace Algorithms
             //int result = anagrams.Solve("ifailuhkqq");
 
 
-            CountTriplets triplets = new CountTriplets();
+            //CountTriplets triplets = new CountTriplets();
 
-            long result = triplets.Solve(new List<long> { 5, 25, 125,5,1 }, 5);
+            //long result = triplets.Solve(new List<long> { 5, 25, 125,5,1 }, 5);
+
+            //LeftRotation leftRotation = new LeftRotation();
+            //leftRotation.solve(new List<int> { 41, 73, 89, 7, 10, 1, 59, 58, 84, 77 }, 4);
+
+            //FraudulentActivityNotifications f = new FraudulentActivityNotifications();
+            //f.Solve(new List<int> { 10, 20, 30, 40, 50}, 3);
+
+            //MaxMin maxMin = new MaxMin();
+            //maxMin.Solve(3, new List<int> { 1, 2, 3, 4, 10, 20, 30, 40 });
+
+            //LuckBalance luckBalance = new LuckBalance();
+            //luckBalance.Solve(3, new List<List<int>> {
+            //    new List<int> { 5,1 },
+            //    new List<int> { 2,1 },
+            //    new List<int> { 1,1 },
+            //    new List<int> { 8,1 },
+            //    new List<int> { 10,0 },
+            //    new List<int> { 5,0 },
+
+            //});
+
+            FlippingBits flipping = new FlippingBits();
+            flipping.Solve(2147483647);
         }
     }
 }

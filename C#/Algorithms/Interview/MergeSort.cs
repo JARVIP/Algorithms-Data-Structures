@@ -27,8 +27,8 @@ namespace Algorithms.Interview
             int middleIndex = num.Length / 2;
             int[] leftHalf = new int[middleIndex];
             int[] righttHalf = new int[num.Length - middleIndex];
-            Array.Copy(num, 0, leftHalf, 0, middleIndex);
-            Array.Copy(num, middleIndex, righttHalf, 0, num.Length - middleIndex);
+            //Array.Copy(num, 0, leftHalf, 0, middleIndex);
+            //Array.Copy(num, middleIndex, righttHalf, 0, num.Length - middleIndex);
 
             MergeSrt(leftHalf);
             MergeSrt(righttHalf);
