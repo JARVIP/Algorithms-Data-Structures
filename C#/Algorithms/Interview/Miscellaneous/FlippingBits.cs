@@ -28,7 +28,6 @@ namespace Algorithms.Interview.Miscellaneous
             }
             bitString = sb.ToString();
             long result = Convert.ToInt64(bitString, 2);
-
             return result;
         }
     }

@@ -1,5 +1,6 @@
 ﻿using Algorithms.Codility;
 using Algorithms.Interview;
+using Algorithms.Interview._11EsentialQuestions;
 using Algorithms.Interview.Array;
 using Algorithms.Interview.DictionariesAndHashmaps;
 using Algorithms.Interview.GreedyAlgorithms;
@@ -139,8 +140,37 @@ namespace Algorithms
 
             //});
 
-            FlippingBits flipping = new FlippingBits();
-            flipping.Solve(2147483647);
+            //FlippingBits flipping = new FlippingBits();
+            //flipping.Solve(2147483647);
+
+
+            //MostFrequentlyOccuringItem mfi = new MostFrequentlyOccuringItem();
+
+            //int result = mfi.Solve(new[] { 1, 3, 1, 3, 2, 1 });
+
+            //CommonElementsInTwoSortedArrays commonEl = new CommonElementsInTwoSortedArrays();
+
+            //var result = commonEl.Solve(new int[] { 1, 3, 4, 6, 7, 9 }, new int[] { 1, 2, 4, 5, 9, 10 });
+            //var result2 = commonEl.CommonElements(new int[] { 1, 3, 4, 6, 7, 9 }, new int[] { 1, 2, 4, 5, 9, 10 });
+
+            //IsOneArrayARotationOfAnother isRotation = new IsOneArrayARotationOfAnother();
+
+            //var result = isRotation.Solve(new int[] { 1, 2, 3, 4, 5, 6, 7 }, new int[] { 4, 5, 6, 7, 1, 2, 3 });
+
+            //NonRepeatingCharacter nonRepeatingCharacter = new NonRepeatingCharacter();
+
+            //var result = nonRepeatingCharacter.Solve("xxyz");
+
+            AssignNumbersInMinesweeper assign = new AssignNumbersInMinesweeper();
+
+            var matrix = assign.Solve(new int[2][] { new int[] { 0, 0 }, new int[] { 3, 3 } }, 4, 4);
+            assign.Print(matrix, 4, 4);
+            FindWhereToExpandInMinesweeper find = new FindWhereToExpandInMinesweeper();
+
+            var solved = find.Solve(matrix, 4, 4, 1, 3);
+
+          
+            assign.Print(solved, 4,4);
         }
     }
 }
