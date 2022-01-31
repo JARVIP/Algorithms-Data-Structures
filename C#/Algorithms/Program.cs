@@ -1,8 +1,10 @@
 ﻿using Algorithms.Codility;
+using Algorithms.GG.LinkedLists;
 using Algorithms.Interview;
 using Algorithms.Interview._11EsentialQuestions;
 using Algorithms.Interview.Array;
 using Algorithms.Interview.DictionariesAndHashmaps;
+using Algorithms.Interview.DynamicProgramming;
 using Algorithms.Interview.GreedyAlgorithms;
 using Algorithms.Interview.Miscellaneous;
 using Algorithms.Interview.Sorting;
@@ -10,13 +12,20 @@ using Interview.Algorithms;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 
 namespace Algorithms
 {
     class Program
     {
+        enum color
+        {
+            red,green,blue
+        }
         static void Main(string[] args)
         {
+
+            #region Test
             ///Reverse array Test
             ///int[] n = new int[]{1,2,3,4 };
             ///ReverseArray reverseArray = new ReverseArray(n);
@@ -161,16 +170,66 @@ namespace Algorithms
 
             //var result = nonRepeatingCharacter.Solve("xxyz");
 
-            AssignNumbersInMinesweeper assign = new AssignNumbersInMinesweeper();
+            //AssignNumbersInMinesweeper assign = new AssignNumbersInMinesweeper();
 
-            var matrix = assign.Solve(new int[2][] { new int[] { 0, 0 }, new int[] { 3, 3 } }, 4, 4);
-            assign.Print(matrix, 4, 4);
-            FindWhereToExpandInMinesweeper find = new FindWhereToExpandInMinesweeper();
+            //var matrix = assign.Solve(new int[2][] { new int[] { 0, 0 }, new int[] { 3, 3 } }, 4, 4);
+            //assign.Print(matrix, 4, 4);
+            //FindWhereToExpandInMinesweeper find = new FindWhereToExpandInMinesweeper();
 
-            var solved = find.Solve(matrix, 4, 4, 1, 3);
+            //var solved = find.Solve(matrix, 4, 4, 1, 3);
 
-          
-            assign.Print(solved, 4,4);
+
+            //assign.Print(solved, 4,4);
+
+            //Knapsack ks = new Knapsack(new int[] { 0,1,2,4,2,5 }, new int[] { 0,5,3,5,3,2});
+            //int result = ks.Solve(5, 10);
+
+
+            //LinkedList llist = new LinkedList();
+            //GG.LinkedLists.Node new_node;
+
+
+            //new_node = llist.NewNode(5);
+            //llist.SortedInsert(new_node);
+
+            //new_node = llist.NewNode(10);
+            //llist.SortedInsert(new_node);
+
+            //new_node = llist.NewNode(7);
+            //llist.SortedInsert(new_node);
+
+            //new_node = llist.NewNode(3);
+            //llist.SortedInsert(new_node);
+
+            //new_node = llist.NewNode(1);
+            //llist.SortedInsert(new_node);
+
+            //new_node = llist.NewNode(9);
+            //llist.SortedInsert(new_node);
+
+            //Console.WriteLine("Created Linked List");
+            //llist.PrintList();
+
+            #endregion
+            int[] a = new int[] { 34, 23, 1, 24,75,33,54,8};
+
+
+
+
+            Array.Sort(a); 
+
+            for(int i = a.Length - 2; i >= 0; i--)
+            {
+                int sum = a[i] + a[i + 1];
+                if(sum < 60)
+                {
+                    Console.WriteLine(sum);
+                }
+            }
+
+            Console.WriteLine(a);
+            
+
         }
     }
 }

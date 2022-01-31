@@ -10,7 +10,7 @@ namespace Algorithms.Interview._11EsentialQuestions
     {
         public int[,] Solve(int[,] matrix, int rows, int cols, int i, int j)
         {
-            Queue<int[]> q = new Queue<int[]>();
+            Queue<int[]> q = new Queue<int[]>();    
             q.Enqueue(new int[] { i,j});
             if(matrix[i,j] == 0)
             {

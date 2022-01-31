@@ -28,6 +28,5 @@ namespace Algorithms.Interview._11EsentialQuestions
             }
             return null;
         }
-        
     }
 }
