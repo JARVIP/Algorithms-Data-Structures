@@ -20,6 +20,8 @@ namespace Algorithms.Interview._11EsentialQuestions
             }
         }
 
+
+        // My solution
         public int[,] Solve(int[][] bombs, int rows, int cols)
         {
             int[,] matrix = new int[rows, cols];
@@ -70,6 +72,7 @@ namespace Algorithms.Interview._11EsentialQuestions
             return matrix;
         }
 
+        // 
         public void mineSweeper(int[][] bombs, int rows, int cols)
         {
             int[,] matrix = new int[rows, cols];
