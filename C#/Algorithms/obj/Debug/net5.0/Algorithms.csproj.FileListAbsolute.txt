@@ -46,3 +46,19 @@ C:\Users\olegg\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms
 C:\Users\olegg\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms\obj\Debug\net5.0\ref\Algorithms.dll
 C:\Users\olegg\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms\obj\Debug\net5.0\Algorithms.pdb
 C:\Users\olegg\OneDrive\Learning\Algorithms & Data Structures\Work\C#\Algorithms\obj\Debug\net5.0\Algorithms.genruntimeconfig.cache
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\bin\Debug\net5.0\Algorithms.exe
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\bin\Debug\net5.0\Algorithms.deps.json
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\bin\Debug\net5.0\Algorithms.runtimeconfig.json
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\bin\Debug\net5.0\Algorithms.runtimeconfig.dev.json
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\bin\Debug\net5.0\Algorithms.dll
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\bin\Debug\net5.0\Algorithms.pdb
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\obj\Debug\net5.0\Algorithms.csproj.AssemblyReference.cache
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\obj\Debug\net5.0\Algorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\obj\Debug\net5.0\Algorithms.AssemblyInfoInputs.cache
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\obj\Debug\net5.0\Algorithms.AssemblyInfo.cs
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\obj\Debug\net5.0\Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\obj\Debug\net5.0\Algorithms.dll
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\obj\Debug\net5.0\refint\Algorithms.dll
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\obj\Debug\net5.0\Algorithms.pdb
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\obj\Debug\net5.0\Algorithms.genruntimeconfig.cache
+C:\Users\ogugunava\Desktop\Project\Algorithms-Data-Structures\C#\Algorithms\obj\Debug\net5.0\ref\Algorithms.dll

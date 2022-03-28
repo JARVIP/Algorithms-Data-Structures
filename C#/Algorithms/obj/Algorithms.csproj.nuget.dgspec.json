@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\olegg\\OneDrive\\Learning\\Algorithms & Data Structures\\Work\\C#\\Algorithms\\Algorithms.csproj": {}
+    "C:\\Users\\ogugunava\\Desktop\\Project\\Algorithms-Data-Structures\\C#\\Algorithms\\Algorithms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\olegg\\OneDrive\\Learning\\Algorithms & Data Structures\\Work\\C#\\Algorithms\\Algorithms.csproj": {
+    "C:\\Users\\ogugunava\\Desktop\\Project\\Algorithms-Data-Structures\\C#\\Algorithms\\Algorithms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\olegg\\OneDrive\\Learning\\Algorithms & Data Structures\\Work\\C#\\Algorithms\\Algorithms.csproj",
+        "projectUniqueName": "C:\\Users\\ogugunava\\Desktop\\Project\\Algorithms-Data-Structures\\C#\\Algorithms\\Algorithms.csproj",
         "projectName": "Algorithms",
-        "projectPath": "C:\\Users\\olegg\\OneDrive\\Learning\\Algorithms & Data Structures\\Work\\C#\\Algorithms\\Algorithms.csproj",
-        "packagesPath": "C:\\Users\\olegg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\olegg\\OneDrive\\Learning\\Algorithms & Data Structures\\Work\\C#\\Algorithms\\obj\\",
+        "projectPath": "C:\\Users\\ogugunava\\Desktop\\Project\\Algorithms-Data-Structures\\C#\\Algorithms\\Algorithms.csproj",
+        "packagesPath": "C:\\Users\\ogugunava\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ogugunava\\Desktop\\Project\\Algorithms-Data-Structures\\C#\\Algorithms\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\olegg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ogugunava\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,18 +55,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.13, 5.0.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

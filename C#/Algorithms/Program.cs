@@ -170,16 +170,16 @@ namespace Algorithms
 
             //var result = nonRepeatingCharacter.Solve("xxyz");
 
-            AssignNumbersInMinesweeper assign = new AssignNumbersInMinesweeper();
+            //AssignNumbersInMinesweeper assign = new AssignNumbersInMinesweeper();
 
-            var matrix = assign.Solve(new int[2][] { new int[] { 0, 0 }, new int[] { 3, 3 } }, 4, 4);
-            assign.Print(matrix, 4, 4);
-            FindWhereToExpandInMinesweeper find = new FindWhereToExpandInMinesweeper();
+            //var matrix = assign.Solve(new int[2][] { new int[] { 0, 0 }, new int[] { 3, 3 } }, 4, 4);
+            //assign.Print(matrix, 4, 4);
+            //FindWhereToExpandInMinesweeper find = new FindWhereToExpandInMinesweeper();
 
-            var solved = find.Solve(matrix, 4, 4, 1, 3);
+            //var solved = find.Solve(matrix, 4, 4, 1, 3);
 
 
-            assign.Print(solved, 4, 4);
+            //assign.Print(solved, 4, 4);
 
             //Knapsack ks = new Knapsack(new int[] { 0,1,2,4,2,5 }, new int[] { 0,5,3,5,3,2});
             //int result = ks.Solve(5, 10);
@@ -211,24 +211,34 @@ namespace Algorithms
             //llist.PrintList();
 
             #endregion
-            //int[] a = new int[] { 34, 23, 1, 24,75,33,54,8};
 
 
+            MasterOfCodingInterview.DataStructures.BinarySearchTree tree = new MasterOfCodingInterview.DataStructures.BinarySearchTree();
+            tree.Insert(9);
+            tree.Insert(4);
+            tree.Insert(6);
+            tree.Insert(20);
+            tree.Insert(170);
+            tree.Insert(15);
+            tree.Insert(1);
 
+            Queue < MasterOfCodingInterview.DataStructures.Node> q = new Queue<MasterOfCodingInterview.DataStructures.Node>();
 
-            //Array.Sort(a); 
+            q.Enqueue(tree.root);
+            while(q.Count > 0)
+            {
+                var currentNode = q.Dequeue();
+                Console.WriteLine(currentNode.Value);
 
-            //for(int i = a.Length - 2; i >= 0; i--)
-            //{
-            //    int sum = a[i] + a[i + 1];
-            //    if(sum < 60)
-            //    {
-            //        Console.WriteLine(sum);
-            //    }
-            //}
-
-            //Console.WriteLine(a);
-
+                if(currentNode.Left != null)
+                {
+                    q.Enqueue(currentNode.Left);
+                }
+                if(currentNode.Right != null)
+                {
+                    q.Enqueue(currentNode.Right);
+                }
+            }
 
         }
     }
