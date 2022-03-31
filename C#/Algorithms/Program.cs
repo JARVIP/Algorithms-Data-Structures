@@ -224,21 +224,25 @@ namespace Algorithms
 
             Queue < MasterOfCodingInterview.DataStructures.Node> q = new Queue<MasterOfCodingInterview.DataStructures.Node>();
 
-            q.Enqueue(tree.root);
-            while(q.Count > 0)
-            {
-                var currentNode = q.Dequeue();
-                Console.WriteLine(currentNode.Value);
+            var result =  tree.DFSInOrder();
 
-                if(currentNode.Left != null)
-                {
-                    q.Enqueue(currentNode.Left);
-                }
-                if(currentNode.Right != null)
-                {
-                    q.Enqueue(currentNode.Right);
-                }
-            }
+            Console.WriteLine(string.Join(", ", result));
+
+            //q.Enqueue(tree.root);
+            //while(q.Count > 0)
+            //{
+            //    var currentNode = q.Dequeue();
+            //    Console.WriteLine(currentNode.Value);
+
+            //    if(currentNode.Left != null)
+            //    {
+            //        q.Enqueue(currentNode.Left);
+            //    }
+            //    if(currentNode.Right != null)
+            //    {
+            //        q.Enqueue(currentNode.Right);
+            //    }
+            //}
 
         }
     }
