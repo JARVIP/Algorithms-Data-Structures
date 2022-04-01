@@ -8,6 +8,7 @@ using Algorithms.Interview.DynamicProgramming;
 using Algorithms.Interview.GreedyAlgorithms;
 using Algorithms.Interview.Miscellaneous;
 using Algorithms.Interview.Sorting;
+using Algorithms.MasterOfCodingInterview.Algorithms;
 using Interview.Algorithms;
 using System;
 using System.Collections;
@@ -213,20 +214,20 @@ namespace Algorithms
             #endregion
 
 
-            MasterOfCodingInterview.DataStructures.BinarySearchTree tree = new MasterOfCodingInterview.DataStructures.BinarySearchTree();
-            tree.Insert(9);
-            tree.Insert(4);
-            tree.Insert(6);
-            tree.Insert(20);
-            tree.Insert(170);
-            tree.Insert(15);
-            tree.Insert(1);
+            //MasterOfCodingInterview.DataStructures.BinarySearchTree tree = new MasterOfCodingInterview.DataStructures.BinarySearchTree();
+            //tree.Insert(9);
+            //tree.Insert(4);
+            //tree.Insert(6);
+            //tree.Insert(20);
+            //tree.Insert(170);
+            //tree.Insert(15);
+            //tree.Insert(1);
 
-            Queue < MasterOfCodingInterview.DataStructures.Node> q = new Queue<MasterOfCodingInterview.DataStructures.Node>();
+            //Queue < MasterOfCodingInterview.DataStructures.Node> q = new Queue<MasterOfCodingInterview.DataStructures.Node>();
 
-            var result =  tree.DFSInOrder();
+            //var result =  tree.DFSInOrder();
 
-            Console.WriteLine(string.Join(", ", result));
+            //Console.WriteLine(string.Join(", ", result));
 
             //q.Enqueue(tree.root);
             //while(q.Count > 0)
@@ -244,6 +245,29 @@ namespace Algorithms
             //    }
             //}
 
+            FibonacciDynamicProgramming fib = new FibonacciDynamicProgramming();
+            Dictionary<int,int> cache = new Dictionary<int,int>();
+
+            //int result = fib.Solve(2, cache);
+            //Console.WriteLine(result);
+            //result = fib.Solve(12, cache);
+            //Console.WriteLine(result);
+            //result = fib.Solve(22, cache);
+            //Console.WriteLine(result);
+
+
+
+            FactorialRecursive fac = new FactorialRecursive();
+
+            Console.WriteLine(fac.SolveDynamic(5, cache));
+            Console.WriteLine(fac.SolveIterative(5));
+            Console.WriteLine(fac.SolveRecursive(5));
+
+
+            foreach(var item in cache.Keys)
+            {
+                Console.WriteLine(cache[item]);
+            }
         }
     }
 }
