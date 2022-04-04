@@ -40,6 +40,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[0.13.1, )"
+            },
+            "BenchmarkDotNet.Annotations": {
+              "target": "Package",
+              "version": "[0.13.1, )"
+            },
             "System.Collections.NonGeneric": {
               "target": "Package",
               "version": "[4.3.0, )"

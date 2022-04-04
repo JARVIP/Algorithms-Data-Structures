@@ -14,6 +14,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
+using BenchmarkDotNet;
+using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Running;
+using Algorithms.Extensions;
 
 namespace Algorithms
 {
@@ -25,7 +29,6 @@ namespace Algorithms
         }
         static void Main(string[] args)
         {
-
             #region Test
             ///Reverse array Test
             ///int[] n = new int[]{1,2,3,4 };
@@ -213,7 +216,6 @@ namespace Algorithms
 
             #endregion
 
-
             //MasterOfCodingInterview.DataStructures.BinarySearchTree tree = new MasterOfCodingInterview.DataStructures.BinarySearchTree();
             //tree.Insert(9);
             //tree.Insert(4);
@@ -257,17 +259,54 @@ namespace Algorithms
 
 
 
-            FactorialRecursive fac = new FactorialRecursive();
+            //FactorialRecursive fac = new FactorialRecursive();
 
-            Console.WriteLine(fac.SolveDynamic(5, cache));
-            Console.WriteLine(fac.SolveIterative(5));
-            Console.WriteLine(fac.SolveRecursive(5));
+            //Console.WriteLine(fac.SolveDynamic(5, cache));
+            //Console.WriteLine(fac.SolveIterative(5));
+            //Console.WriteLine(fac.SolveRecursive(5));
 
 
-            foreach(var item in cache.Keys)
-            {
-                Console.WriteLine(cache[item]);
-            }
+            //foreach(var item in cache.Keys)
+            //{
+            //    Console.WriteLine(cache[item]);
+            //}
+
+
+            var sss = new MasterOfCodingInterview.Algorithms.BubbleSort();
+
+          
+
+            var array = new int[400000]; 
+            var rng = new Random();
+            rng.Shuffle(array);
+
+
+            Console.WriteLine("SleveN");
+            var  arr = sss.SolveN(array);
+
+            Console.WriteLine(string.Join(",", arr));
+
+
+            Console.WriteLine("Sleve");
+            arr = sss.Solve(array);
+            Console.WriteLine(string.Join(",", arr));
+
+
+
+
+            //var ss = new MasterOfCodingInterview.Algorithms.SelectionSort();
+
+            //int[] arr = new int[] { 6, 4, 2, 1, 5 };
+            //ss.Solve(arr);
+
+            //Console.WriteLine(string.Join(",", arr));
+
+
+            //var inss = new MasterOfCodingInterview.Algorithms.InsertionSort();
+            //int[] arr2 = new int[] { 6, 4, 2,1, 5 };
+            //inss.Solve(arr2);
+            //Console.WriteLine(string.Join(",", arr2));
+
         }
     }
 }
