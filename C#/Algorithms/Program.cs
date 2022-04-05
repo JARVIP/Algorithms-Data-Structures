@@ -272,24 +272,24 @@ namespace Algorithms
             //}
 
 
-            var sss = new MasterOfCodingInterview.Algorithms.BubbleSort();
+            //var sss = new MasterOfCodingInterview.Algorithms.BubbleSort();
 
           
 
-            var array = new int[400000]; 
-            var rng = new Random();
-            rng.Shuffle(array);
+            //var array = new int[400000]; 
+            //var rng = new Random();
+            //rng.Shuffle(array);
 
 
-            Console.WriteLine("SleveN");
-            var  arr = sss.SolveN(array);
+            //Console.WriteLine("SleveN");
+            //var  arr = sss.SolveN(array);
 
-            Console.WriteLine(string.Join(",", arr));
+            //Console.WriteLine(string.Join(",", arr));
 
 
-            Console.WriteLine("Sleve");
-            arr = sss.Solve(array);
-            Console.WriteLine(string.Join(",", arr));
+            //Console.WriteLine("Sleve");
+            //arr = sss.Solve(array);
+            //Console.WriteLine(string.Join(",", arr));
 
 
 
