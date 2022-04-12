@@ -26,8 +26,6 @@ namespace Algorithms.MasterOfCodingInterview.Algorithms
             return arr;
         }
 
-
-
         [Benchmark]
         public int[] SolveN(int[] arr)
         {
@@ -48,11 +46,7 @@ namespace Algorithms.MasterOfCodingInterview.Algorithms
                     index++;
                 }
             }
-
-
-
             return arr;
         }
-
     }
 }

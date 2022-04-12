@@ -274,7 +274,7 @@ namespace Algorithms
 
             //var sss = new MasterOfCodingInterview.Algorithms.BubbleSort();
 
-          
+
 
             //var array = new int[400000]; 
             //var rng = new Random();
@@ -307,6 +307,19 @@ namespace Algorithms
             //inss.Solve(arr2);
             //Console.WriteLine(string.Join(",", arr2));
 
+
+
+            Algorithms.LeetCode.ListNode l1 = new LeetCode.ListNode(9);
+            l1.next = new LeetCode.ListNode(9);
+
+            LeetCode.ListNode l2 = new LeetCode.ListNode(9);
+            l2.next = new LeetCode.ListNode(9);
+            l2.next.next = new LeetCode.ListNode(9);
+            l2.next.next.next = new LeetCode.ListNode(9);
+
+
+            LeetCode.AddTwoNumbers addTwoNumbers = new LeetCode.AddTwoNumbers();
+            addTwoNumbers.AddTwoNumbs(l1, l2);
         }
     }
 }
