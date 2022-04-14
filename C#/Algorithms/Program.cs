@@ -18,6 +18,7 @@ using BenchmarkDotNet;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
 using Algorithms.Extensions;
+using Algorithms.LeetCode;
 
 namespace Algorithms
 {
@@ -309,17 +310,26 @@ namespace Algorithms
 
 
 
-            Algorithms.LeetCode.ListNode l1 = new LeetCode.ListNode(9);
-            l1.next = new LeetCode.ListNode(9);
+            //Algorithms.LeetCode.ListNode l1 = new LeetCode.ListNode(9);
+            //l1.next = new LeetCode.ListNode(9);
 
-            LeetCode.ListNode l2 = new LeetCode.ListNode(9);
-            l2.next = new LeetCode.ListNode(9);
-            l2.next.next = new LeetCode.ListNode(9);
-            l2.next.next.next = new LeetCode.ListNode(9);
+            //LeetCode.ListNode l2 = new LeetCode.ListNode(9);
+            //l2.next = new LeetCode.ListNode(9);
+            //l2.next.next = new LeetCode.ListNode(9);
+            //l2.next.next.next = new LeetCode.ListNode(9);
 
 
-            LeetCode.AddTwoNumbers addTwoNumbers = new LeetCode.AddTwoNumbers();
-            addTwoNumbers.AddTwoNumbs(l1, l2);
+            //LeetCode.AddTwoNumbers addTwoNumbers = new LeetCode.AddTwoNumbers();
+            //addTwoNumbers.AddTwoNumbs(l1, l2);
+
+            //Algorithms.LeetCode.LongestSubstring l1 = new LeetCode.LongestSubstring();
+
+            //l1.LengthOfLongestSubstring("abcabcbb");
+
+
+            LongestPalindromicSubstring l = new LongestPalindromicSubstring();
+
+            var res = l.Solve("abcabcbb");
         }
     }
 }
